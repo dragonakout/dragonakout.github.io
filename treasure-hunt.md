@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-slate
 layout: page
 title: "Treasure Hunt"
 permalink: /treasure-hunt/
