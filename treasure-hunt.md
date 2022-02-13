@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Treasure Hunt"
+permalink: /treasure-hunt/
+---
+
 # Treasure-Hunt
 Collect treasures and gamify exploring your neighborhood with this neat little Android app!
 
