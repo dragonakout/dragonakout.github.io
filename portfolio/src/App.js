@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './res/under-construction.svg';
 import './App.css';
 
 function App() {
@@ -7,9 +7,17 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is another branch with different text.
+          Under construction ! Come back later :)
         </p>
-        <a
+      </header>
+    </div>
+  );
+}
+
+/**
+ * EXAMPLE LINK
+ * 
+ *         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -17,9 +25,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
-}
+ * 
+ */
 
 export default App;
