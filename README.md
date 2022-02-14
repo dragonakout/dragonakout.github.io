@@ -1,2 +1,2 @@
 Portfolio Site
-#### Check /dev for source files
+#### Check out /dev for source files
