@@ -1,0 +1,107 @@
+html{scroll-behavior:smooth} 
+
+.about{
+    width: 80%;
+    height: 400px;
+    color: #233127;
+    background-color: #83b48f;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.aboutSectionContent{
+    display: flex;
+    flex: auto;
+    height: 370px;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+
+img {
+    margin: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+
+.aboutText{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    max-width: 45%;
+    flex: auto;
+    height: 340px;
+    margin-left: 5%;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.projects{
+    width: 80%;
+    height: 500px;
+    background-color: #83b48f;
+    color: #233127;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.contact{
+    width: 80%;
+    height: 500px;
+    background-color: #83b48f;
+    color: #233127;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.sectionTitle{
+    font-family: "SquareFont";
+    font-size: 30px;
+}
+
+.linkOffset{
+    padding-top: 80px;
+}
+
+@media (max-width: 800px) {
+    /* about section*/
+    img {
+        margin: 20px;
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .aboutText{
+        flex-direction:row;
+        align-items: center;
+        justify-content:center;
+        max-width: 45%;
+        flex: auto;
+        height: 340px;
+        margin-left: 5%;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /* projects section*/
+    
+    /* contact section*/
+
+}

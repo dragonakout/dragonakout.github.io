@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SquareFont';
+    src: url('../res/square-webfont.woff2') format('woff2'),
+         url('../res/square-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+ .appbar{
+     width: 100%;
+     height: 50px;
+     background-color: #6c9477;
+     position:sticky;
+     top: 0;
+     display: flex;
+     flex-direction: row;
+     margin:0;
+ }
+
+ .titleContainer{
+    width: 50%;
+     margin-left: 20%;
+     display: flex;
+     flex-direction: row;
+     justify-content:flex-end;
+     align-items: center;
+ }
+
+ .siteName{
+    width: 100%;
+    font-size: 20px; 
+    font-weight: bold;
+    color: #233127;
+    flex: 1 1 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .tabName{
+    width: 100%;
+    flex: 0 5;
+    font-size: 20px; 
+    font-weight: bold;
+    color: #233127;
+    margin-right: 30px;
+    font-family: "SquareFont";
+ }
+
+ .footer{
+     width: 100%;
+     height: 100px;
+     background-color: #6c9477;  
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: 14px;
+ }
+
+ .linkStyle{
+     color:inherit;
+     text-decoration: none;
+ }

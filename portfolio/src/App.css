@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
 }
 
@@ -13,12 +14,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:first baseline;
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   color: darkslategray;
-}
-
-.App-link {
-  color: #61dafb;
 }
