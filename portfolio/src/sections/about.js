@@ -11,6 +11,9 @@ let presentationLine2 =
 let presentationLine3 =
 "I mostly speak French, though English, Kotlin and C# are close second."
 
+let presentationLine4 =
+"Always on the lookout for the next side project!"
+
 export default function About() {
   return (
       <div className='about'>
@@ -20,7 +23,8 @@ export default function About() {
             <div className='aboutText'>
             {presentationLine1}<br/><br/>
             {presentationLine2}<br/><br/>
-            {presentationLine3}
+            {presentationLine3}<br/><br/>
+            {presentationLine4}
             </div>
         </div>
       </div>
