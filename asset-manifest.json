@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6d2ba82.css",
-    "main.js": "/static/js/main.b0dfa730.js",
+    "main.css": "/static/css/main.7110a667.css",
+    "main.js": "/static/js/main.501722f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Characterization_of_an_eclipsing_variable_star.pdf": "/static/media/Characterization_of_an_eclipsing_variable_star.700bbbccaa79c1924bdb.pdf",
     "static/media/rain_like_logo.png": "/static/media/rain_like_logo.d7ec53d1bcc802f9690e.png",
     "static/media/maigan_portfolio.png": "/static/media/maigan_portfolio.7c194609eb4d890f8831.png",
     "static/media/RZ_com_location.png": "/static/media/RZ_com_location.6f0a5e9badac65d7957a.png",
+    "static/media/Maïgan_Périot_Resume.pdf": "/static/media/Maïgan_Périot_Resume.51254f39ae33449680c3.pdf",
     "static/media/treasure_hunt_logo.svg": "/static/media/treasure_hunt_logo.58982fbf6e99f8a658229b351514dc01.svg",
     "static/media/curriculum_vitae.png": "/static/media/curriculum_vitae.e42f8dd59ed07f1c5445.png",
+    "static/media/app_logo.svg": "/static/media/app_logo.39769f9294a12b22429c2ea23b091897.svg",
     "static/media/square-webfont.woff": "/static/media/square-webfont.25998a5f8986036304c0.woff",
     "static/media/github.png": "/static/media/github.903a70c60f001f96ec19.png",
-    "static/media/under-construction.svg": "/static/media/under-construction.4fba0d477b84baa9089aaaf0463529f0.svg",
     "static/media/email.png": "/static/media/email.8651e0b80bd7b3645293.png",
     "static/media/linkedin.png": "/static/media/linkedin.cfa2ee195cad1683c551.png",
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
-    "main.e6d2ba82.css.map": "/static/css/main.e6d2ba82.css.map",
-    "main.b0dfa730.js.map": "/static/js/main.b0dfa730.js.map",
+    "main.7110a667.css.map": "/static/css/main.7110a667.css.map",
+    "main.501722f5.js.map": "/static/js/main.501722f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6d2ba82.css",
-    "static/js/main.b0dfa730.js"
+    "static/css/main.7110a667.css",
+    "static/js/main.501722f5.js"
   ]
 }
