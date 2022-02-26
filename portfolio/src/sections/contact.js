@@ -4,7 +4,7 @@ import emailIcon from '../res/email.png'
 import cvIcon from '../res/curriculum_vitae.png'
 import linkedInIcon from '../res/linkedin.png'
 import githubIcon from '../res/github.png'
-import resume_pdf from "../res/Maïgan_Périot_Resume.pdf"
+import resume_pdf from "https://dragonakout.github.io/Maïgan_Périot_Resume.pdf"
 
 export default function About() {
   return (

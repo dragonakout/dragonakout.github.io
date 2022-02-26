@@ -3,7 +3,7 @@ import './sections.css'
 import treasure_hunt_icon from '../res/treasure_hunt_logo.svg'
 import rain_like_icon from '../res/rain_like_logo.png'
 import rz_com_icon from '../res/RZ_com_location.png'
-import projet_synthese from "../res/Characterization_of_an_eclipsing_variable_star.pdf"
+import projet_synthese from "https://dragonakout.github.io/Characterization_of_an_eclipsing_variable_star.pdf"
 
 
 export default function Projects() {
