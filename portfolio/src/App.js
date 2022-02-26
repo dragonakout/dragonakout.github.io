@@ -13,7 +13,7 @@ function App() {
         <AppBar/>
         <img src={logo} className="App-logo" alt="logo" />
         <p className='landingFont'>
-          An elegant design rests on both simplicity and depth.
+          An elegant design rests on both simplicity and depth
         </p>
 
         <About/>
