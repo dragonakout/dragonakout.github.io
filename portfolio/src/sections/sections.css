@@ -2,7 +2,7 @@ html{scroll-behavior:smooth}
 
 .about{
     width: 80%;
-    height: 400px;
+    height: 420px;
     color: #233127;
     background-color: #83b48f;
     margin-top: 30px;
@@ -13,13 +13,18 @@ html{scroll-behavior:smooth}
 .aboutSectionContent{
     display: flex;
     flex: auto;
-    height: 370px;
+    height: 340px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 20px;
     flex-direction:row;
     align-items: center;
     justify-content:center;
+    background-color: #a4dab2;
+
 }
 
-img {
+.profilePhoto {
     margin: 20px;
     margin-top: 20px;
     width: 300px;
@@ -46,9 +51,11 @@ img {
     text-align: justify;
 }
 
+/* Each section is 230 px*/
+
 .projects{
     width: 80%;
-    height: 500px;
+    height: 770px;
     background-color: #83b48f;
     color: #233127;
     margin-top: 30px;
@@ -56,9 +63,80 @@ img {
     padding-top: 16px;
 }
 
+.projectSectionContent{
+    display: flex;
+    width: 96%;
+    height: 200px;
+    flex-direction:row;
+    margin-left: 2%;
+    background-color: #a4dab2;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.pictureProject{
+    min-width: 160px;
+    height: 160px;
+    margin: 20px;
+    transition: filter 0.15s;
+}
+
+.pictureProject:hover{
+    filter: brightness(70%);
+}
+
+.projectTitle{
+    width: fit-content;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #162219;
+    font-family: "SquareFont";
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.projectTitle:hover{
+    color: #c7a12f;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.projectSummary{
+    color: #385540;
+    font-size: 18px;
+}
+
+.descriptionProject{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 70%;
+    color: #385540;
+    text-align: justify;
+    transition: color 1.15s;
+}
+
+.descriptionProject:hover .projectTitle{
+    color: #c7a12f;
+}
+
+.projectTags{
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height:200px;
+    margin-bottom: 15px;
+    color: #44694e;
+}
+
+
 .contact{
     width: 80%;
-    height: 500px;
+    height: 300px;
     background-color: #83b48f;
     color: #233127;
     margin-top: 30px;
@@ -67,9 +145,50 @@ img {
     padding-top: 16px;
 }
 
+
+.contactSectionContent{
+    display: flex;
+    width: 96%;
+    height: 230px;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
+    margin-left: 2%;
+    background-color: #a4dab2;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contactSubsection{
+    display: flex;
+    flex-direction:row;
+    width: 35%;
+    margin: 15px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+}
+
 .sectionTitle{
     font-family: "SquareFont";
-    font-size: 30px;
+    font-size: 34px;
+}
+
+.sectionSubtitle{
+    font-family: "SquareFont";
+    font-size: 22px;
+}
+
+.sectionSubtitleUnderline{
+    font-family: "SquareFont";
+    font-size: 22px;
+    text-decoration: underline;
+    color:#fbcb3d;
+    transition: color 0.15s;
+}
+.sectionSubtitleUnderline:hover{
+    color: #c7a12f
 }
 
 .linkOffset{
@@ -78,11 +197,11 @@ img {
 
 @media (max-width: 800px) {
     /* about section*/
-    img {
+    .profilePhoto {
         margin: 20px;
         margin-top: 20px;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
     
     .aboutText{
@@ -96,12 +215,75 @@ img {
         margin-right: 30px;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: justify;
     }
 
     /* projects section*/
     
+    .pictureProject{
+        min-width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+
+    .projectSectionContent{
+        display: flex;
+        width: 96%;
+        height: 120px;
+        flex-direction:row;
+        margin-left: 2%;
+        background-color: #a4dab2;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .projectTitle{
+        margin-top: 10px;
+        font-size: 20px;
+        color: #162219;
+        font-family: "SquareFont";
+        text-decoration: none;
+    }
+
+    .projectSummary{
+        color: #385540;
+        font-size: 11px;
+    }
+
+    .descriptionProject{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 70%;
+        color: #385540;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .projectTags{
+        display: flex;
+        font-size: 9px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height:200px;
+        margin-bottom: 5px;
+    }
+
+    /* Each section is 135 px*/
+
+    .projects{
+        width: 80%;
+        height: 515px;
+        background-color: #83b48f;
+        color: #233127;
+        margin-top: 30px;
+        text-align: center;
+        padding-top: 16px;
+    }
+    
+
     /* contact section*/
 
 }

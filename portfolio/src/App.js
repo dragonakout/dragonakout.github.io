@@ -12,8 +12,8 @@ function App() {
       <header className="App-header">
         <AppBar/>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Under construction ! Come back later :)
+        <p className='landingFont'>
+           Welcome
         </p>
 
         <About/>
@@ -24,19 +24,5 @@ function App() {
     </div>
   );
 }
-
-/**
- * EXAMPLE LINK
- * 
- *         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
- * 
- */
 
 export default App;
