@@ -34,7 +34,7 @@ export default function Projects() {
             <div className='projectTitle'>rain_like</div>         
             <div className='projectSummary'>A hardcore plateformer trying to be a "roguelike". Also, it's very chill.</div> 
             </a>
-            <div className='projectTags'>C#, Unity 3D</div>
+            <div className='projectTags'>C#, Unity Engine</div>
           </div>         
         </div>
         <div className='sectionSubtitle'>Non-Programming Projects</div>

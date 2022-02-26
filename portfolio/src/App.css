@@ -5,6 +5,7 @@
 
 .App-logo {
   height: 60vh;
+  max-width: 75%;
   pointer-events: none;
   margin-top: 5vh;
 }
