@@ -4,6 +4,7 @@ import emailIcon from '../res/email.png'
 import cvIcon from '../res/curriculum_vitae.png'
 import linkedInIcon from '../res/linkedin.png'
 import githubIcon from '../res/github.png'
+import resume_pdf from "../res/Maïgan_Périot_Resume.pdf"
 
 export default function About() {
   return (
@@ -18,24 +19,39 @@ export default function About() {
             <a href="mailto:maigan.periot@yahoo.ca" className='textContact'>maigan.periot@yahoo.ca</a>
           </div>
           <div className='contactSubsection'> 
-            <a href="">
+            <a href={resume_pdf}
+                            target="_blank"
+                            rel="noopener noreferrer">
               <img src = {cvIcon} alt="Resume" className='iconContact'/> 
             </a>
-            <a href="" className='textContact'>Resume</a>
+            <a href={resume_pdf} className='textContact'
+                            target="_blank"
+                            rel="noopener noreferrer">Resume</a>
           </div>
         </div>
         <div className='contactSectionContent'>
           <div className='contactSubsection'> 
-            <a href="https://www.linkedin.com/in/maigan-periot/">
+            <a href="https://www.linkedin.com/in/maigan-periot/"
+                target="_blank"
+                rel="noopener noreferrer">
               <img src = {linkedInIcon} alt="LinkedIn" className='iconContact'/>
             </a>
-            <a href="https://www.linkedin.com/in/maigan-periot/" className='textContact'>Maïgan Périot</a>
+            <a href="https://www.linkedin.com/in/maigan-periot/" 
+                className='textContact' 
+                target="_blank"
+                rel="noopener noreferrer">Maïgan Périot</a>
           </div>
             <div className='contactSubsection'> 
-              <a href="https://github.com/dragonakout">
+              <a 
+                href="https://github.com/dragonakout"                 
+                target="_blank"
+                rel="noopener noreferrer">
                 <img src = {githubIcon} alt="GitHub" className='iconContact'/> 
               </a>
-              <a href="https://github.com/dragonakout" className='textContact'>@dragonakout</a>
+              <a 
+                href="https://github.com/dragonakout"                 
+                target="_blank"
+                rel="noopener noreferrer" className='textContact'>@dragonakout</a>
             </div>
         </div>
       </div>

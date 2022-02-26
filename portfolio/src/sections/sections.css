@@ -305,7 +305,6 @@ a{
         text-align: center;
         padding-top: 16px;
     }
-    
 
     /* contact section*/
 
@@ -322,10 +321,5 @@ a{
         margin-left: 2px;
         transition: color 0.15s;
         font-size: 11px;
-    }
-    .contactEnglobing{
-        display: flex;
-        flex-direction: row;
-        padding-left: 2%;
     }
 }

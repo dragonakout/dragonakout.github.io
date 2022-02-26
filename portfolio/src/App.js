@@ -1,4 +1,4 @@
-import logo from './res/under-construction.svg';
+import logo from './res/app_logo.svg';
 import './App.css';
 import AppBar from './appbars/AppBar'
 import Footer from './appbars/Footer'
