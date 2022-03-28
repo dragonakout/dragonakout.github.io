@@ -1,5 +1,2 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: https://dragonakout.github.io/
-
-Sitemap: http://dragonakout.github.io/sitemap.xml
+Disallow:
