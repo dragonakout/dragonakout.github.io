@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth
+}
+
 .App {
   text-align: center;
   scroll-behavior: smooth
@@ -16,12 +20,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:first baseline;
+  justify-content: first baseline;
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   color: darkslategray;
 }
 
-.landingFont{
+.landingFont {
   font-family: 'SquareFont';
 }
