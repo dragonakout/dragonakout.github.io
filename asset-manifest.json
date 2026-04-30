@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.92952922.css",
-    "main.js": "/static/js/main.f0cf707e.js",
+    "main.js": "/static/js/main.bd25575e.js",
     "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
     "static/media/rain_like_logo.png": "/static/media/rain_like_logo.d7ec53d1bcc802f9690e.png",
     "static/media/maigan_hiver.png": "/static/media/maigan_hiver.9f05b0e6ab71a8e612b9.png",
@@ -16,11 +16,11 @@
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
     "main.92952922.css.map": "/static/css/main.92952922.css.map",
-    "main.f0cf707e.js.map": "/static/js/main.f0cf707e.js.map",
+    "main.bd25575e.js.map": "/static/js/main.bd25575e.js.map",
     "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92952922.css",
-    "static/js/main.f0cf707e.js"
+    "static/js/main.bd25575e.js"
   ]
 }
