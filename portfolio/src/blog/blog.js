@@ -9,8 +9,8 @@ export default function Blog() {
         // href="https://github.com/dragonakout"
         // target="_blank"
         rel="noopener noreferrer">View all blog posts</a>
-      <div className='blogSectionContent'>
 
+      <div className='blogSectionContent'>
         Come back soon!
       </div>
     </div>
