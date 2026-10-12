@@ -11,7 +11,7 @@ export default function About() {
         <div className='aboutText'>
           Hello!
           <br />
-          I'm Maïgan! I'm a programmer and sailor. I mostly speak French, though English and C# are close second. Jeg også lære norsk, omtrent A2 nivå nå.
+          I'm Maïgan! I'm a programmer and sailor. I mostly speak French, though English and C# are close second. Jeg lære også norsk, jeg er rundt A2 nivå for tiden.
           <br /><br />
           I work as an embedded .NET software developer, but I take on many hats to solve the issues at hand. Over time, I have become familiar with linux networking, mDNS, the NMOS protocol and Angular. I am always looking to improve our product's architecture, as well as the general workflow of the team.
           <br /><br />
