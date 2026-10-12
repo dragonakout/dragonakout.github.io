@@ -1,56 +1,156 @@
+/* Outer panel, same look as the About / Projects sections.
+   Height is automatic so it grows with the number of posts / story length. */
 .blog {
     width: 80%;
-    height: 200px;
     color: #233127;
     background-color: #83b48f;
     margin-top: 30px;
     text-align: center;
     padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+/* Full pages (/blog and a single post) */
+.blogPage {
+    min-height: 60vh;
+    margin-bottom: 30px;
 }
 
 .blogSectionContent {
     display: flex;
-    flex: auto;
     height: 100px;
     width: 96%;
     margin-left: 2%;
     margin-top: 20px;
+    margin-bottom: 15px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #a4dab2;
-
 }
 
-.blogText {
+/* ---------- Post cards (home page + /blog) ---------- */
+
+.postCard {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: auto;
-    max-width: 45%;
-    margin-left: 5%;
-    margin-right: 30px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 15px;
+    padding: 16px 24px;
+    background-color: #a4dab2;
+    color: #385540;
+    text-align: left;
+}
+
+.postCardTitle {
+    font-family: "SquareFont";
+    font-size: 28px;
+    color: #162219;
+    transition: color 0.15s;
+}
+
+.postCard:hover .postCardTitle {
+    color: #c7a12f;
+}
+
+.postCardDate {
+    margin-top: 4px;
+    font-size: 16px;
+    color: #44694e;
+}
+
+.postCardSummary {
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
 }
 
+/* ---------- Single post page ---------- */
+
+.postBack {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.postTitle {
+    margin-top: 16px;
+    padding: 0 4%;
+}
+
+.postDate {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #44694e;
+}
+
+.postContent {
+    box-sizing: border-box;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 20px;
+    padding: 10px 10%;
+    background-color: #a4dab2;
+    color: #233127;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.postContent p {
+    margin: 1em 0;
+}
+
+.postFigure {
+    margin: 28px 0;
+    text-align: center;
+}
+
+.postFigure img {
+    max-width: 100%;
+    max-height: 70vh;
+    height: auto;
+}
+
+.postFigure figcaption {
+    margin-top: 6px;
+    font-size: 15px;
+    font-style: italic;
+    color: #44694e;
+}
+
 @media (max-width: 1000px) {
+    .postCard {
+        padding: 10px 14px;
+    }
 
-    /* about section*/
+    .postCardTitle {
+        font-size: 16px;
+    }
 
-    .blogText {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex: auto;
-        max-width: 45%;
-        margin-left: 5%;
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 9px;
-        text-align: justify;
+    .postCardDate {
+        font-size: 10px;
+    }
+
+    .postCardSummary {
+        font-size: 11px;
+    }
+
+    .postDate {
+        font-size: 12px;
+    }
+
+    /* Stories stay readable on phones */
+    .postContent {
+        padding: 6px 5%;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .postFigure figcaption {
+        font-size: 12px;
     }
 }
