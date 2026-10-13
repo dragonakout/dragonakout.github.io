@@ -23,7 +23,15 @@ export function formatDate(isoDate) {
   })
 }
 
-const IMAGE_LINE = /^\[image:\s*([^|\]]+?)\s*(?:\|\s*([^\]]*?)\s*)?\]$/
+// Caption without Markdown symbols, used as the image's alt text
+// (what screen readers say, and what shows if the picture fails to load).
+function plainText(text) {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[*_]{1,3}(\S[^*_]*?)[*_]{1,3}/g, '$1')
+}
+
+const IMAGE_LINE = /^\[image:\s*([^|\]]+?)\s*(?:\|\s*(.*?)\s*)?\]$/
 
 // Turns a post's body text into a list of blocks:
 //   { type: 'paragraph', text: '...' }
@@ -40,7 +48,8 @@ export function parseBody(body) {
         const src = /^https?:\/\//.test(file)
           ? file
           : `${process.env.PUBLIC_URL}/blog-images/${file}`
-        return { type: 'image', src, caption: match[2] || '' }
+        const caption = match[2] || ''
+        return { type: 'image', src, caption, alt: plainText(caption) }
       }
       return { type: 'paragraph', text: block }
     })

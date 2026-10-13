@@ -102,6 +102,20 @@
 
 .postContent p {
     margin: 1em 0;
+    white-space: pre-line; /* keep single line breaks from the post text */
+}
+
+.postLink {
+    /* Deep gold: same family as the site's yellows, but dark enough to read
+       on the light green background */
+    color: #6b4e00;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.postLink:hover {
+    color: #c7a12f;
 }
 
 .postFigure {
