@@ -1,4 +1,42 @@
-import posts from './posts'
+// Finds every post in the posts/ folder, and the pictures next to them.
+//
+// require.context(...) is a feature of webpack, the tool that builds the
+// site (`npm start` / `npm run build`). It finds all files in a folder that
+// match a pattern, so adding a folder is enough to add a post. Folders whose
+// name starts with "_" (like _template) are skipped.
+//
+// It only exists inside webpack, so in tests (`npm test`) the calls fail and
+// there are simply no posts. (Webpack must see require.context(...) written
+// exactly like this, as a direct call, to recognize it.)
+let postFiles = null
+let imageFiles = null
+try {
+  postFiles = require.context('./posts', true, /^\.\/[^_/][^/]*\/post\.js$/)
+  imageFiles = require.context('./posts', true, /^\.\/[^_/][^/]*\/[^/]+\.(png|jpe?g|gif|webp|avif|svg)$/i)
+} catch (error) {
+  // Not running inside webpack.
+}
+
+// Mac file names and typed text can store accented letters (é, ü...) in two
+// different ways that look identical; normalize('NFC') makes them match.
+const normalize = (path) => path.normalize('NFC')
+
+// { "./my-post/photo.jpg": "/static/media/photo.1a2b3c.jpg", ... }
+const imageUrls = {}
+if (imageFiles) {
+  for (const key of imageFiles.keys()) {
+    imageUrls[normalize(key)] = imageFiles(key)
+  }
+}
+
+// [{ slug: "my-post", title: ..., date: ..., summary: ..., body: ... }, ...]
+// The slug (the URL part) is the folder's name.
+const posts = postFiles
+  ? postFiles.keys().map((key) => ({
+      ...postFiles(key).default,
+      slug: key.split('/')[1],
+    }))
+  : []
 
 // All posts, newest first. ([...posts] makes a copy so we never reorder
 // the original list.)
@@ -33,10 +71,18 @@ function plainText(text) {
 
 const IMAGE_LINE = /^\[image:\s*([^|\]]+?)\s*(?:\|\s*(.*?)\s*)?\]$/
 
+// Where the picture `file` of post `slug` ends up on the site, or
+// undefined if there is no such file in the post's folder.
+function imageUrl(slug, file) {
+  if (/^https?:\/\//.test(file)) return file
+  return imageUrls[normalize(`./${slug}/${file}`)]
+}
+
 // Turns a post's body text into a list of blocks:
 //   { type: 'paragraph', text: '...' }
-//   { type: 'image', src: '/blog-images/x.jpg', caption: '...' }
-export function parseBody(body) {
+//   { type: 'image', src: '/static/media/x.jpg', caption: '...', alt: '...' }
+//   { type: 'missingImage', file: 'x.jpg' }   (file not found in the folder)
+export function parseBody(body, slug) {
   return body
     .split(/\n\s*\n/)            // an empty line separates blocks
     .map((block) => block.trim())
@@ -45,9 +91,8 @@ export function parseBody(body) {
       const match = block.match(IMAGE_LINE)
       if (match) {
         const file = match[1]
-        const src = /^https?:\/\//.test(file)
-          ? file
-          : `${process.env.PUBLIC_URL}/blog-images/${file}`
+        const src = imageUrl(slug, file)
+        if (!src) return { type: 'missingImage', file }
         const caption = match[2] || ''
         return { type: 'image', src, caption, alt: plainText(caption) }
       }

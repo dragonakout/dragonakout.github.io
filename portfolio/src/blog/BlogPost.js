@@ -27,7 +27,7 @@ export default function BlogPost() {
       <div className='sectionTitle postTitle'>{post.title}</div>
       <div className='postDate'>{formatDate(post.date)}</div>
       <article className='postContent'>
-        <PostBody body={post.body} />
+        <PostBody body={post.body} slug={post.slug} />
       </article>
     </div>
   )

@@ -118,6 +118,14 @@
     color: #c7a12f;
 }
 
+.postMissingImage {
+    padding: 10px;
+    border: 2px dashed #c7a12f;
+    color: #6b4e00;
+    font-weight: bold;
+    text-align: center;
+}
+
 .postFigure {
     margin: 28px 0;
     text-align: center;
