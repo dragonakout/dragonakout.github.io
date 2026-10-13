@@ -1,9 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.92952922.css",
-    "main.js": "/static/js/main.e5b18309.js",
+    "main.css": "/static/css/main.1c3eb8d2.css",
+    "main.js": "/static/js/main.75e449aa.js",
     "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
+    "static/media/Reine.jpg": "/static/media/Reine.38807fe8c9abb1356957.jpg",
+    "static/media/First navigation in Norway.jpg": "/static/media/First navigation in Norway.7f80280f3a9f36d25743.jpg",
+    "static/media/Towards Nordskot.jpg": "/static/media/Towards Nordskot.f36e296f90c3858cd652.jpg",
+    "static/media/Henningsvær.jpg": "/static/media/Henningsvær.b87b7607adc0594ecbf6.jpg",
+    "static/media/Five degrees on board.jpg": "/static/media/Five degrees on board.d9f8f66384cb9fe74012.jpg",
     "static/media/rain_like_logo.png": "/static/media/rain_like_logo.d7ec53d1bcc802f9690e.png",
+    "static/media/Skrova view.jpg": "/static/media/Skrova view.49792d5626613412ce24.jpg",
+    "static/media/Skrova fyr.jpg": "/static/media/Skrova fyr.eb898497f1c48f2fbcd4.jpg",
+    "static/media/Kjerringøy.jpg": "/static/media/Kjerringøy.d83f0be0153a91c0ec3e.jpg",
+    "static/media/skotnes.jpg": "/static/media/skotnes.212f32c3af8794356fcc.jpg",
     "static/media/maigan_hiver.png": "/static/media/maigan_hiver.9f05b0e6ab71a8e612b9.png",
     "static/media/RZ_com_location.png": "/static/media/RZ_com_location.6f0a5e9badac65d7957a.png",
     "static/media/treasure_hunt_logo.svg": "/static/media/treasure_hunt_logo.58982fbf6e99f8a658229b351514dc01.svg",
@@ -15,12 +24,12 @@
     "static/media/linkedin.png": "/static/media/linkedin.cfa2ee195cad1683c551.png",
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
-    "main.92952922.css.map": "/static/css/main.92952922.css.map",
-    "main.e5b18309.js.map": "/static/js/main.e5b18309.js.map",
+    "main.1c3eb8d2.css.map": "/static/css/main.1c3eb8d2.css.map",
+    "main.75e449aa.js.map": "/static/js/main.75e449aa.js.map",
     "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92952922.css",
-    "static/js/main.e5b18309.js"
+    "static/css/main.1c3eb8d2.css",
+    "static/js/main.75e449aa.js"
   ]
 }
