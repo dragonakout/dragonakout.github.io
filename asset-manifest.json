@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c3eb8d2.css",
-    "main.js": "/static/js/main.7b60474a.js",
+    "main.js": "/static/js/main.47d84179.js",
     "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
     "static/media/Reine.jpg": "/static/media/Reine.38807fe8c9abb1356957.jpg",
     "static/media/First navigation in Norway.jpg": "/static/media/First navigation in Norway.7f80280f3a9f36d25743.jpg",
@@ -26,11 +26,11 @@
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
     "main.1c3eb8d2.css.map": "/static/css/main.1c3eb8d2.css.map",
-    "main.7b60474a.js.map": "/static/js/main.7b60474a.js.map",
+    "main.47d84179.js.map": "/static/js/main.47d84179.js.map",
     "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3eb8d2.css",
-    "static/js/main.7b60474a.js"
+    "static/js/main.47d84179.js"
   ]
 }
