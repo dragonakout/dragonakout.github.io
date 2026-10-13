@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.1c3eb8d2.css",
-    "main.js": "/static/js/main.47d84179.js",
+    "main.js": "/static/js/main.8511417c.js",
     "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
     "static/media/Reine.jpg": "/static/media/Reine.38807fe8c9abb1356957.jpg",
-    "static/media/First navigation in Norway.jpg": "/static/media/First navigation in Norway.7f80280f3a9f36d25743.jpg",
-    "static/media/Towards Nordskot.jpg": "/static/media/Towards Nordskot.f36e296f90c3858cd652.jpg",
     "static/media/Henningsvær.jpg": "/static/media/Henningsvær.b87b7607adc0594ecbf6.jpg",
-    "static/media/Five degrees on board.jpg": "/static/media/Five degrees on board.d9f8f66384cb9fe74012.jpg",
     "static/media/rain_like_logo.png": "/static/media/rain_like_logo.d7ec53d1bcc802f9690e.png",
-    "static/media/Skrova view.jpg": "/static/media/Skrova view.49792d5626613412ce24.jpg",
-    "static/media/Skrova fyr.jpg": "/static/media/Skrova fyr.eb898497f1c48f2fbcd4.jpg",
-    "static/media/Kjerringøy.jpg": "/static/media/Kjerringøy.d83f0be0153a91c0ec3e.jpg",
     "static/media/skotnes.jpg": "/static/media/skotnes.212f32c3af8794356fcc.jpg",
+    "static/media/Skrova view.jpg": "/static/media/Skrova view.d1b96f6c8d0b902310dc.jpg",
     "static/media/maigan_hiver.png": "/static/media/maigan_hiver.9f05b0e6ab71a8e612b9.png",
+    "static/media/Skrova fyr.jpg": "/static/media/Skrova fyr.eeb329f17e08ee6a8e46.jpg",
+    "static/media/Five degrees on board.jpg": "/static/media/Five degrees on board.af653fa73e57bb6896d1.jpg",
     "static/media/RZ_com_location.png": "/static/media/RZ_com_location.6f0a5e9badac65d7957a.png",
+    "static/media/Kjerringøy.jpg": "/static/media/Kjerringøy.1e3ef53d2d54c7c1ccd7.jpg",
+    "static/media/First navigation in Norway.jpg": "/static/media/First navigation in Norway.294479d17e74789aabef.jpg",
+    "static/media/Towards Nordskot.jpg": "/static/media/Towards Nordskot.762824e66b262161457d.jpg",
     "static/media/17 mai.jpg": "/static/media/17 mai.cb5a1506f45160635845.jpg",
     "static/media/treasure_hunt_logo.svg": "/static/media/treasure_hunt_logo.58982fbf6e99f8a658229b351514dc01.svg",
     "static/media/curriculum_vitae.png": "/static/media/curriculum_vitae.e42f8dd59ed07f1c5445.png",
@@ -26,11 +26,11 @@
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
     "main.1c3eb8d2.css.map": "/static/css/main.1c3eb8d2.css.map",
-    "main.47d84179.js.map": "/static/js/main.47d84179.js.map",
+    "main.8511417c.js.map": "/static/js/main.8511417c.js.map",
     "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3eb8d2.css",
-    "static/js/main.47d84179.js"
+    "static/js/main.8511417c.js"
   ]
 }
