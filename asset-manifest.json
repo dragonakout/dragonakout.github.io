@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c3eb8d2.css",
-    "main.js": "/static/js/main.52dd6c4d.js",
+    "main.js": "/static/js/main.7b60474a.js",
     "static/js/453.635f5f07.chunk.js": "/static/js/453.635f5f07.chunk.js",
     "static/media/Reine.jpg": "/static/media/Reine.38807fe8c9abb1356957.jpg",
     "static/media/First navigation in Norway.jpg": "/static/media/First navigation in Norway.7f80280f3a9f36d25743.jpg",
@@ -15,6 +15,7 @@
     "static/media/skotnes.jpg": "/static/media/skotnes.212f32c3af8794356fcc.jpg",
     "static/media/maigan_hiver.png": "/static/media/maigan_hiver.9f05b0e6ab71a8e612b9.png",
     "static/media/RZ_com_location.png": "/static/media/RZ_com_location.6f0a5e9badac65d7957a.png",
+    "static/media/17 mai.jpg": "/static/media/17 mai.cb5a1506f45160635845.jpg",
     "static/media/treasure_hunt_logo.svg": "/static/media/treasure_hunt_logo.58982fbf6e99f8a658229b351514dc01.svg",
     "static/media/curriculum_vitae.png": "/static/media/curriculum_vitae.e42f8dd59ed07f1c5445.png",
     "static/media/app_logo.svg": "/static/media/app_logo.39769f9294a12b22429c2ea23b091897.svg",
@@ -25,11 +26,11 @@
     "static/media/square-webfont.woff2": "/static/media/square-webfont.507cd7621c79e9b41e26.woff2",
     "index.html": "/index.html",
     "main.1c3eb8d2.css.map": "/static/css/main.1c3eb8d2.css.map",
-    "main.52dd6c4d.js.map": "/static/js/main.52dd6c4d.js.map",
+    "main.7b60474a.js.map": "/static/js/main.7b60474a.js.map",
     "453.635f5f07.chunk.js.map": "/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3eb8d2.css",
-    "static/js/main.52dd6c4d.js"
+    "static/js/main.7b60474a.js"
   ]
 }
